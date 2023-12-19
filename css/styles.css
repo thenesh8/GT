@@ -2014,15 +2014,81 @@ ul{
   border-radius: 5px;
 }
 
+/* QC */
 
+.qc-container {
+  padding: 10px 50px;
+  position: relative;
+  width: 50%;
+}
 
+.left-qcontainer {
+  left: 0;
+}
 
+.right-qcontainer {
+  left: 50%;
+}
 
+.text-box {
+  padding: 20px 30px;
+  background: #fff;
+  position: relative;
+  border-radius: 6px;
+  font-size: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
 
+.qc-container img {
+  position: absolute;
+  width: 40px;
+  border-radius: 50%;
+  right: -20px;
+  top: 32px;
+  z-index: 10;
+}
 
+.right-qcontainer img {
+  left: -20px;
+}
 
+.right-qcontainer-arrow {
+ height: 0;
+ width: 0;
+ position: absolute;
+ top: 28px;
+ z-index: 1;
+ border-top: 15px solid transparent;
+ border-bottom: 15px solid transparent;
+ border-right: 15px solid#fff;
+ left: -15px;
+ 
+}
 
+.left-qcontainer-arrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 28px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid#fff;
+  right: -15px;
+ }
 
+.qc-container h3{
+  text-align: center;
+  color: #00485E;
+}
+
+.text-box p {
+  display: none;
+}
+
+.text-box:hover p {
+  display: block;
+}
 
 
 
