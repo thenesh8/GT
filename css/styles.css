@@ -48,7 +48,7 @@
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #5bc1ac;
+  --primary-color:                #00485E;
   /* --primary-color:                #5bc1ac;  */
   --secondary-color:              #5a6f80;
   --section-bg-color:             #f0f8ff;
@@ -413,6 +413,7 @@ strong {
   font-weight: bold;
 }
 
+
 .dropdown-menu {
   background: var(--white-color);
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
@@ -553,7 +554,7 @@ strong {
   SITE HEADER              
 -----------------------------------------*/
 .site-header {
-  background: var(--primary-color);
+  background: #00485E;
   padding-top: 15px;
   padding-bottom: 10px;
 }
@@ -1688,10 +1689,16 @@ blockquote::before {
 -----------------------------------------*/
 
 header {
-  background-color: #5bc1ac;
-  color: #fff;
+  /* background-color: #5bc1ac; */
+  background-color: #00485E;
   padding: 10px;
+  padding-top: 10px;
   text-align: center;
+}
+
+header h1{
+  color: white;
+  margin: 0px;
 }
 
 main {
@@ -2091,11 +2098,59 @@ ul{
 }
 
 
+/* Enquire Now */
+
+.enq-now-container {
+  display: flex;
+  justify-content: flex-end; /* Align content to the right */
+}
+
+.enq-now-btn {
+  background-color: #00485E; 
+  padding: 10px;
+  
+}
+
+.enq-nw {
+  margin-right: 5px; 
+}
+
+/* Right Enquire Button */
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+
+.scroll {
+  height: 1000px;
+}
+
+.scroll p {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.btn.book-now {
+  background: #efc468;
+  border-radius: 0;
+  color: #232323;
+  display: inline-block;
+  font-size: 1rem;
+  height: 50px;
+  line-height: 50px;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transform: rotate(-90deg);
+  transform-origin: bottom right;
+  width: 150px;
+}
 
 
-
-
-
+/* New Header */
+.new-header h2{
+  color: #00485E;
+}
 
 
 
