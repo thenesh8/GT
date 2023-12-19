@@ -52,12 +52,13 @@
   /* --primary-color:                #5bc1ac;  */
   --secondary-color:              #5a6f80;
   --section-bg-color:             #f0f8ff;
-  --site-footer-bg-color:         #44525d;
+  --site-footer-bg-color:         #00485E;
   --custom-btn-bg-color:          #597081;
   --custom-btn-bg-hover-color:    #00485E;
   --dark-color:                   #000000;
   --p-color:                      #717275;
   --border-color:                 #e9eaeb;
+  --custom-color:                 #00485E;
 
   --body-font-family:             'Metropolis', sans-serif;
 
@@ -113,6 +114,7 @@ h1 {
   font-size: var(--h1-font-size);
   font-weight: var(--font-weight-bold);
   letter-spacing: -2px;
+  color: #00485E;
 }
 
 h2 {
@@ -391,7 +393,7 @@ strong {
 .navbar-expand-lg .navbar-nav .nav-link {
   margin-right: 0;
   margin-left: 0;
-  padding: 7px;
+  padding: 15px;
 }
 
 .navbar-nav .nav-link {
@@ -407,7 +409,8 @@ strong {
 .navbar-nav .nav-link.active, 
 .navbar-nav .nav-link:hover {
   background: transparent;
-  color: var(--primary-color);
+  color: var(--custom-btn-bg-hover-color);
+  font-weight: bold;
 }
 
 .dropdown-menu {
@@ -421,6 +424,17 @@ strong {
 }
 
 .dropdown-item {
+  display: inline-block;
+  color: var(--p-bg-color);
+  font-size: var(--menu-font-size);
+  font-weight: var(--font-weight-medium);
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+}
+
+.dropdown-header {
   display: inline-block;
   color: var(--p-bg-color);
   font-size: var(--menu-font-size);
@@ -1908,7 +1922,7 @@ button:hover {
 }
 
 .my-float{
-	margin-top:16px;
+	margin-top:9px;
 }
 
 
@@ -1982,9 +1996,35 @@ ul{
   }
 }
 
+
 .text-center {
   text-align: center;
 }
+
+
+.products-dropdown {
+  margin-bottom: 5px; 
+}
+
+.letter-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
