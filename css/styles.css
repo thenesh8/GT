@@ -1740,7 +1740,7 @@ button:hover {
   position: relative;
   width: 100%;
   padding: 10px 0 60px 0;
-  margin: 45px 0;
+  margin: 10px;
   background: #f0f8ff;
 }
 
@@ -1839,6 +1839,29 @@ button:hover {
     margin-right: auto;
     width: 50%;
   }
+
+  .food .food-item h5 {
+    font-size: 24px;
+    font-weight: 700;
+    transition: .3s;
+  }
+  
+  .food .food-item:hover h5 {
+    color: #597081; 
+  }
+  
+  .food .food-item p {
+    display: none;
+    margin-top: 20px;
+    font-size: 16px;
+   
+  }
+  
+  .food .food-item:hover p {
+    display: block;
+  }
+  
+  
 
 /* Static Form */
 
@@ -2153,12 +2176,5 @@ ul{
 }
 
 
-
-
-
-
-
-
-
-
+/* Process */
 
