@@ -56,7 +56,8 @@
   --custom-btn-bg-color:          #597081;
   --custom-btn-bg-hover-color:    #00485E;
   --dark-color:                   #000000;
-  --p-color:                      #717275;
+  --p-color:                      #000000;
+  /* --p-color:                      #717275; */
   --border-color:                 #e9eaeb;
   --custom-color:                 #00485E;
 
@@ -68,7 +69,7 @@
   --h4-font-size:                 28px;
   --h5-font-size:                 24px;
   --h6-font-size:                 22px;
-  --p-font-size:                  16px;
+  --p-font-size:                  1rem;
   --btn-font-size:                18px;
   --copyright-font-size:          14px;
 
@@ -143,7 +144,7 @@ h6 {
 p {
   color: var(--p-color);
   font-size: var(--p-font-size);
-  font-weight: var(--font-weight-light);
+  font-weight: 300;
   font-family: 'Poppins';
 }
 
@@ -1594,7 +1595,7 @@ blockquote::before {
 
   .copyright-text-wrap {
     justify-content: center;
-  }
+  } 
 
   .site-footer-bottom {
     text-align: center;
@@ -1958,9 +1959,9 @@ button:hover {
 
 /* Bullet Point Image  */
 
-ul{
+/* ul{
   list-style-image: url(../images/Bullet/leaf7.png); 
-}
+} */
 
 /* Blog First Paragraph */
 
@@ -2042,6 +2043,8 @@ ul{
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  background-color: #00485E
+
 }
 
 /* QC */
@@ -2175,6 +2178,50 @@ ul{
   color: #00485E;
 }
 
+/* Table */
 
-/* Process */
+.product-desc-table {
+  width: 100%;
+}
 
+.product-desc-table table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: var(--bs-table-color);
+  vertical-align: top;
+  border-color: var(--bs-table-border-color);
+}
+
+table {
+  caption-side: bottom;
+  border-collapse: collapse;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: var(--bs-table-color);
+  vertical-align: top;
+  border-color: var(--bs-table-border-color);
+}
+
+
+/* Image Collage */
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.image-box {
+  flex-basis: 18%; /* Adjust as needed */
+  margin: 10px;
+  text-align: center;
+}
+
+.image-box img {
+  max-width: 100%;
+  height: auto;
+}
